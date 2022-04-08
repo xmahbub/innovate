@@ -10,7 +10,13 @@
 
 @font-face {
   font-family: averta_stdregular;
-  src: url(https://static8.lottiefiles.com/fonts/avertastd-regular-webfont.woff2);
+  src: local('averta_stdregular'), url(./images/regular.woff2) format('woff2');
+  
+}
+
+@font-face {
+  font-family: AvertaStd-Bold;
+  src: local('AvertaStd-Bold'), url(./images/bold.woff2) format('woff2');
 }
 
 
