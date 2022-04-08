@@ -3,13 +3,26 @@ import iecbdLogo from '../images/logo.png'
 import {IoIosArrowDown} from 'react-icons/io'
 import {BiSearch} from 'react-icons/bi'
 import {GiHamburgerMenu} from 'react-icons/gi';
+import { useState } from 'react';
 
 export default function Navebar(){
+    const [shadow,setShadow] = useState(false)
+    const changeShadow = () =>{
+        if(window.scrollY >= 90){
+            setShadow(true)
+        }
+        else{
+            setShadow(false)
+        }
+
+    }
+    window.addEventListener('scroll',changeShadow)
+    
     return(
-        <div className="fixed flex Navbar bg-iec-background h-20 active:shadow-sm justify-between w-full">
+        <div className={shadow?"fixed flex Navbar bg-iec-background shadow h-20 justify-between w-full":"fixed flex Navbar bg-iec-background h-20 justify-between w-full"}>
             <div className="flex logo my-auto ml-12 gap-1">
                 <img src={iecbdLogo} alt="IECBD" className='w-8 h-8 pt-1'></img>
-                <h2 className="text-iec-font-color text-3xl	font-iec-font-family border-b-iec-font-yellow">INNOVATE</h2>
+                <h2 className="logo text-iec-font-color text-3xl	font-iec-font-family border-b-iec-font-yellow">INNOVATE</h2>
             </div>
 
             
