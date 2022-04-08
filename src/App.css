@@ -2,10 +2,18 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+@font-face {
+  font-family: averta_stdregular;
+  src: url(https://static8.lottiefiles.com/fonts/avertastd-regular-webfont.woff2);
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

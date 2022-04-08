@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import Navebar from './home/navbar';
+import HomeBody from './home/body';
+import Space from './home/space';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Navebar></Navebar>
+    <Space></Space>
+    <HomeBody></HomeBody>
+    <Space></Space>
+    <div className='text-center text-iec-font-primery font-iec-font-family text-xl'>10 years of design build and project management experience</div>
+    </>
+  )
 }
 
-export default App;
+
