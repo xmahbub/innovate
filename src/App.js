@@ -30,9 +30,11 @@ export default function App() {
     <div className='text-center text-iec-font-primery font-iec-font-family text-xl'>10 years of design build and project management experience</div>
     <Space></Space>
     <Carousel breakPoints={breakpoints}>
-        <Provide animationdata={engineeringlotti} title={"Engineering"} body={"CivilProcess & Mechanical, Design, Electrical, Software"}></Provide>
-        <Provide animationdata={archit} title={"Architectural"} body={"Architectural Consultancy"}></Provide>
-        <Provide animationdata={making} title={"Procument"}body={"Procurement Consultancy"} ></Provide>
+        <Provide animationdata={engineeringlotti} buttontext={"Engineering"} title={"Engineering"} body={"CivilProcess & Mechanical, Design, Electrical, Software"}></Provide>
+        <Provide animationdata={archit} buttontext={"Architectural"} title={"Architectural"} body={"Architectural Consultancy"}></Provide>
+        <Provide animationdata={making} buttontext={"Procument"} title={"Procument"}body={"Procurement Consultancy"} ></Provide>
+        <Provide animationdata={engineeringlotti} buttontext={"Engineering"} title={"Engineering"} body={"CivilProcess & Mechanical, Design, Electrical, Software"}></Provide>
+
     </Carousel>
     <Space></Space>
    
