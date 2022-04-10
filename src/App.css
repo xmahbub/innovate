@@ -42,6 +42,28 @@
   color: #61dafb;
 }
 
+.Navbar{
+  z-index: 100;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+
+.rec-arrow-right{
+  visibility: hidden;
+}
+
+.rec-arrow-left{
+  visibility: hidden;
+}
+
+.rec-dot_active{
+  background-color: #61dafb !important;
+  box-shadow: 0 0 1px 3px rgb(59, 219, 83) !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

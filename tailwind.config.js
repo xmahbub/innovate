@@ -16,6 +16,7 @@ module.exports = {
       'iec-font-secoun':'#8795A1',
       'iec-font-color':'#28D0D1',
       'iec-font-yellow':'#FFF598',
+      'iec-font-white':'#FFFFFF',
       
     },
     extend: {},

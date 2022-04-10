@@ -8,7 +8,7 @@ import { useState } from 'react';
 export default function Navebar(){
     const [shadow,setShadow] = useState(false)
     const changeShadow = () =>{
-        if(window.scrollY >= 90){
+        if(window.scrollY >= 30){
             setShadow(true)
         }
         else{
