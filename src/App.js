@@ -7,6 +7,9 @@ import Provide from './home/provide';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Carousel from 'react-elastic-carousel';
 
+import engineeringlotti from './images/math.json';
+import making from './images/making.json';
+import archit from './images/archite.json'
 
 export default function App() {
 
@@ -27,9 +30,9 @@ export default function App() {
     <div className='text-center text-iec-font-primery font-iec-font-family text-xl'>10 years of design build and project management experience</div>
     <Space></Space>
     <Carousel breakPoints={breakpoints}>
-        <Provide></Provide>
-        <Provide></Provide>
-        <Provide></Provide>
+        <Provide animationdata={engineeringlotti} title={"Engineering"} body={"CivilProcess & Mechanical, Design, Electrical, Software"}></Provide>
+        <Provide animationdata={archit} title={"Architectural"} body={"Architectural Consultancy"}></Provide>
+        <Provide animationdata={making} title={"Procument"}body={"Procurement Consultancy"} ></Provide>
     </Carousel>
     <Space></Space>
    
