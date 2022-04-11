@@ -10,6 +10,7 @@ import Carousel from 'react-elastic-carousel';
 import engineeringlotti from './images/math.json';
 import making from './images/making.json';
 import archit from './images/archite.json'
+import Clients from './home/clients';
 
 export default function App() {
 
@@ -29,6 +30,11 @@ export default function App() {
     <Space></Space>
     <div className='text-center text-iec-font-primery font-iec-font-family text-xl'>10 years of design build and project management experience</div>
     <Space></Space>
+    <Clients></Clients>
+    <Space></Space>
+    <div className='text-center text-iec-font-primery font-iec-font-family text-3xl'>What We Provide</div>
+    <Space></Space>
+
     <Carousel breakPoints={breakpoints}>
         <Provide animationdata={engineeringlotti} buttontext={"Engineering"} title={"Engineering"} body={"CivilProcess & Mechanical, Design, Electrical, Software"}></Provide>
         <Provide animationdata={archit} buttontext={"Architectural"} title={"Architectural"} body={"Architectural Consultancy"}></Provide>

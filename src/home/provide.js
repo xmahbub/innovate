@@ -25,7 +25,7 @@ export default function Provide(animationdata){
                <p className='text-center font-iec-font-family text-iec-font-secoun'>{animationdata.body}</p>
             </div>
 
-            <div className='flex button text-center justify-center mx-auto'><button className='flex bg-iec-font-primery rounded-md font-iec-font-family text-iec-font-white px-5 py-1 justify-center'>{animationdata.buttontext}<FaLongArrowAltRight className='justify-center my-auto ml-1'></FaLongArrowAltRight></button></div>
+            <div className='flex button text-center justify-center mx-auto drop-shadow-lg'><button className='flex bg-iec-font-primery rounded-md font-iec-font-family text-iec-font-white px-5 py-1 justify-center'>{animationdata.buttontext}<FaLongArrowAltRight className='justify-center my-auto ml-1'></FaLongArrowAltRight></button></div>
 
             
         </div>
