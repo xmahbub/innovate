@@ -11,6 +11,7 @@ import engineeringlotti from './images/math.json';
 import making from './images/making.json';
 import archit from './images/archite.json'
 import Clients from './home/clients';
+import Expertise from './home/expertise';
 
 export default function App() {
 
@@ -43,6 +44,11 @@ export default function App() {
 
     </Carousel>
     <Space></Space>
+    <div className='text-center text-iec-font-primery font-iec-font-family text-3xl'>Areas of Expertise</div>
+    <Space></Space>
+    <Expertise></Expertise>
+    <Space></Space>
+
    
     </>
   )
